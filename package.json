@@ -1,7 +1,7 @@
 {
   "name": "hexo-filter-auto-spacing",
   "version": "0.1.0",
-  "description": "Feed generator plugin for Hexo",
+  "description": "Add spaces between CJK characters and western characters.",
   "main": "index",
   "repository": {
     "type": "git",
