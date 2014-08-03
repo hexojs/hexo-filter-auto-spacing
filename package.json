@@ -1,0 +1,26 @@
+{
+  "name": "hexo-filter-auto-spacing",
+  "version": "0.1.0",
+  "description": "Feed generator plugin for Hexo",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hexojs/hexo-filter-auto-spacing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hexojs/hexo-filter-auto-spacing/issues"
+  },
+  "keywords": [
+    "hexo",
+    "filter",
+    "spacing"
+  ],
+  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "license": {
+    "type": "MIT",
+    "url": "https://raw.github.com/tommy351/hexo/master/LICENSE"
+  },
+  "dependencies": {
+    "pangunode": "^0.1.0"
+  }
+}
