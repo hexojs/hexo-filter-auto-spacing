@@ -7,11 +7,3 @@ Add spaces between CJK characters and western characters.
 ``` bash
 $ npm install hexo-filter-auto-spacing --save
 ```
-
-## Options
-
-You can configure this plugin in `_config.yml`.
-
-``` yaml
-auto_spacing: true
-```
