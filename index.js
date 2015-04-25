@@ -1,6 +1,6 @@
 var pangunode = require('pangunode');
 
-hexo.extend.filter.register('after_post_render', function(data, callback){
+hexo.extend.filter.register('after_post_render', function(data) {
   data.content = pangunode(data.content);
-  callback(null, data);
 });
+
