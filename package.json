@@ -1,6 +1,6 @@
 {
   "name": "hexo-filter-auto-spacing",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Add spaces between CJK characters and western characters.",
   "main": "index",
   "repository": {
