@@ -1,3 +1,7 @@
+'use strict';
+
+/* global hexo */
+
 const pangunode = require('pangunode');
 
 hexo.extend.filter.register('after_post_render', data => {
