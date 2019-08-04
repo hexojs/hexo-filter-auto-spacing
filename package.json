@@ -2,11 +2,8 @@
   "name": "hexo-filter-auto-spacing",
   "version": "0.2.1",
   "description": "Add spaces between CJK characters and western characters.",
-  "main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hexojs/hexo-filter-auto-spacing.git"
-  },
+  "main": "index.js",
+  "repository": "hexojs/hexo-filter-auto-spacing",
   "bugs": {
     "url": "https://github.com/hexojs/hexo-filter-auto-spacing/issues"
   },
@@ -16,10 +13,7 @@
     "spacing"
   ],
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
-  "license": {
-    "type": "MIT",
-    "url": "https://raw.github.com/tommy351/hexo/master/LICENSE"
-  },
+  "license": "MIT",
   "dependencies": {
     "pangunode": "^0.1.0"
   }
