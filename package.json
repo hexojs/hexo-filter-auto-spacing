@@ -15,6 +15,7 @@
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "license": "MIT",
   "dependencies": {
-    "pangunode": "^0.1.0"
+    "remark": "^11.0.1",
+    "remark-pangu": "^1.0.1"
   }
 }
