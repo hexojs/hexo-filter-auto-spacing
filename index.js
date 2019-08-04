@@ -27,10 +27,6 @@ hexo.extend.filter.register('after_render:html', str => {
     words.push($(element).text());
   });
 
-  $('span').each((index, element) => {
-    words.push($(element).text());
-  });
-
   words = Array.from(new Set(words));
 
   for (let index in words) {
