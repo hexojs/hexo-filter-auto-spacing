@@ -22,7 +22,6 @@
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "0.22.0",
     "pangu": "^4.0.7"
   }
 }
