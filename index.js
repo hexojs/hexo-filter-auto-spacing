@@ -1,6 +1,9 @@
-var pangunode = require('pangunode');
+'use strict';
 
-hexo.extend.filter.register('after_post_render', function(data) {
-  data.title = pangunode(data.title);
-  data.content = pangunode(data.content);
-});
+/* global hexo */
+
+hexo.config.spacing = Object.assign({
+  tags: ['p', 'h1', 'h2', 'h3', 'title', 'a']
+}, hexo.config.spacing);
+
+hexo.extend.filter.register('after_render:html', require('./lib/spacing'));
