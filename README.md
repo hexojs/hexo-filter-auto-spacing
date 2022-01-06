@@ -1,3 +1,7 @@
+# DEPRECATED!
+
+hexo-filter-auto-spacing has been deprecated.
+
 # hexo-filter-auto-spacing
 
 [![NPM version](https://badge.fury.io/js/hexo-filter-auto-spacing.svg)](https://www.npmjs.com/package/hexo-filter-auto-spacing)
